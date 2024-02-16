@@ -13,6 +13,7 @@ public class Calculator {
     Predicate<Integer> isPositive = x -> x > 0;
     Consumer<Integer> println = out::println;
 
+
     private static Integer apply(Integer x, Integer y) {
         if (y != 0) {
             return x / y;

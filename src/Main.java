@@ -8,6 +8,7 @@ public class Main {
         int d = calc.devide.apply(a, b); // на ноль делить нельзя
 
         calc.println.accept(d);
+
     }
 
 }
